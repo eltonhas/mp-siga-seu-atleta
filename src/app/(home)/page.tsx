@@ -1,8 +1,10 @@
-import { Input } from '../components/input'
-import { InputSports } from '../components/input-sports'
-import { OrderSelect } from '../components/order-select'
-import { SearchOlimpicType } from '../components/search-olimpic-type'
-import { Select } from '../components/select'
+import { AthleteCard } from '@/components/athlete-card'
+
+import { Input } from '../../components/input'
+import { InputSports } from '../../components/input-sports'
+import { OrderSelect } from '../../components/order-select'
+import { SearchOlimpicType } from '../../components/search-olimpic-type'
+import { Select } from '../../components/select'
 
 export default function Home() {
   return (
@@ -19,6 +21,15 @@ export default function Home() {
           <Select />
           <OrderSelect />
         </div>
+      </div>
+      <div className="mb-4 grid grid-cols-3 gap-9">
+        <AthleteCard />
+        <AthleteCard />
+        <AthleteCard />
+        <AthleteCard />
+        <AthleteCard />
+        <AthleteCard />
+        <AthleteCard />
       </div>
     </main>
   )

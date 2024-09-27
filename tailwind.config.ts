@@ -13,6 +13,7 @@ const config: Config = {
         'accent-color': '#F59E0B',
         search: '#6E7375',
         'select-input': '#E9E9E9',
+        instagran: '#2563EB',
       },
     },
   },

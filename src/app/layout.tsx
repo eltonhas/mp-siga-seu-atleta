@@ -4,7 +4,7 @@ import type { Metadata } from 'next'
 // eslint-disable-next-line camelcase
 import { Darker_Grotesque } from 'next/font/google'
 
-import { Header } from './components/header'
+import { Header } from '../components/header'
 
 const darkerGrostesque = Darker_Grotesque({ subsets: ['latin'] })
 
